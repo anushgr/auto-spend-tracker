@@ -1,0 +1,25 @@
+name: frontend
+description: A minimal Flutter frontend for Auto Spend Tracker
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  telephony: ^0.2.0
+  flutter_local_notifications: ^17.2.3
+  http: ^1.2.2
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
